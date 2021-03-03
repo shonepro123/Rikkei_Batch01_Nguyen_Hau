@@ -1,0 +1,249 @@
+body {
+    padding: 0;
+    margin:0;
+}
+.row{
+    display: flex;
+    height: 40px;
+    background: white;
+    box-shadow: 1px 1px 1px 5px #AAA;
+}
+.topleft{
+    margin-top:7px;
+    margin-left: 190px;
+    display: flex;
+    list-style: none;
+}
+.topleft >li a:before{
+    content: "\1F551";
+    padding: 0 15px;
+}
+.topleft >li:first-child a:before{
+    content: "\263C";
+    padding: 0 15px;
+}
+
+.topright{
+    display: flex;
+    list-style: none;
+    line-height: 2.5;
+}
+.topright >li a:before{
+    content: "";
+    padding: 0 15px;
+}
+
+.topright >li:first-child a:before{
+    content: "";
+    padding: 0 15px;
+}
+.header{
+   background: white;
+    width: 100%;
+    height: 190px;
+    color: #016600;
+}
+.header .logo {
+    display: block;
+    height: 90px;
+    left: -1px;
+    position: absolute;
+    top: 30px;
+    width: 514px;
+}
+.header .logo a {
+    background: url(logo.png) no-repeat;
+    display: block;
+    height: 90px;
+    text-indent: -500em;
+    width: 514px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.logo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.header .logo2 {
+    width: 117px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    margin-right: 1385px;
+}
+.header .logo3 {
+
+    background: url(widget-tripadvisor-rating.png) no-repeat;
+    height: 35px;
+    position: absolute;
+    width: 320px;
+    margin-top: 58px;
+    margin-left: 855px;
+}
+.header .logo4 {
+    height: 35px;
+    position: absolute;
+    width: 320px;
+    margin-top: 90px;
+    margin-left: 859px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+.header .logo5 {
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 1300px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+.header .logo6 {
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 80px;
+    margin-left: 1300px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+.header .logo7{
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 28px;
+    margin-left: 1275px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+.header .logo8{
+    content: "\260E";
+    display: flex;
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 1575px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+.header .logo9{
+    content: "\260E";
+    display: flex;
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 32px;
+    margin-left: 1600px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+.header .logo10{
+    content: "\260E";
+    display: flex;
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 58px;
+    margin-left: 1575px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+.header .logo11{
+    content: "\260E";
+    display: flex;
+    height: 35px;
+    position: absolute;
+    width: 240px;
+    margin-top: 58px;
+    margin-left: 1600px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #046056;
+}
+
+
+.header .search .text {
+    border: medium none;
+    color: #333;
+    float: left;
+    padding: 2px;
+    width: 317px;
+    margin-top: 10px;
+}
+.text {
+    color: #016600;
+}
+.header .search .submit {
+    background: url(searchbg.png) no-repeat;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: -500em;
+    width: 30px;
+    border: none;
+    margin-top: 10px;
+}
+#mainnav{
+    background: url(menubg.png);
+}
+
+#slider-content{
+    margin-top: -200px;
+    width: 100px;
+    height: 100px;
+}
+
+#mainnav .menumainnav{
+    text-align: justify;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menumainnav {
+    list-style: none;
+    display: flex;
+}
+
+#mainnav .menumainnav {
+    text-align: justify;
+    height: 50px;
+    line-height: 40px;
+    margin-left: 300px;
+}
+
+#mainnav .menumainnav >li>a {
+     color: #fff;
+     display: block;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 15px;
+     width: 150px;
+     height: 10px;
+     margin-top: 5px;
+ }
+
+.content1{
+    font-size: 24px;
+    color: #cbbe73;
+    line-height: 36px;
+    text-align: left;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-style: normal;
+    height: 175px;
+    width: 369px;
+    margin-left: 500px;
+}
